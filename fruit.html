@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for the fruits page */
+        .fruit-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .fruit-card {
+            width: 300px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .fruit-card:hover {
+            transform: scale(1.05);
+        }
+        .fruit-image {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .fruit-info {
+            padding: 20px;
+        }
+        .fruit-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .fruit-description {
+            color: #666;
+            line-height: 1.4;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+            /* Optional: add padding or other styles here */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <!-- Include the header section as in your landing page -->
+
+    <!-- Main Content Section -->
+    <div class="container" style="height: 100%;">
+        <div class="top">
+            <div class="logo">
+               <img src="mango image.png" width="50px" height="50px"> 
+               Fruits Page
+            </div>
+            <div class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fruit.html">Fruits</a></li>
+                <li><a href="vegetables.html">Vegetables</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </div>
+        </div>
+        <!-- Fruits Container -->
+        <div class="fruit-container heading">
+            <!-- Fruit Card - Example 1 -->
+            <div class="fruit-card">
+                <img class="fruit-image" src="apple.jpeg" alt="Apple">
+                <div class="fruit-info">
+                    <div class="fruit-title">Apple</div>
+                    <div class="fruit-description">Apples are rich in fiber, vitamins, and antioxidants. They make a delicious and healthy snack.</div>
+                </div>
+            </div>
+            <!-- Fruit Card - Example 2 -->
+            <div class="fruit-card">
+                <img class="fruit-image" src="banana.jpeg" alt="Banana">
+                <div class="fruit-info">
+                    <div class="fruit-title">Banana</div>
+                    <div class="fruit-description">Bananas are a good source of potassium and provide quick energy. They're great for smoothies or as a snack.</div>
+                </div>
+            </div>
+            <!-- Add more fruit cards here -->
+            <!-- Fruit Card - Example 3 -->
+            <div class="fruit-card">
+                <img class="fruit-image" src="orange.jpeg" alt="Orange">
+                <div class="fruit-info">
+                    <div class="fruit-title">Orange</div>
+                    <div class="fruit-description">Oranges are known for their high vitamin C content. They're refreshing and juicy, perfect for a snack or juice.</div>
+                </div>
+            </div>
+            <!-- Fruit Card - Example 4 -->
+            <div class="fruit-card">
+                <img class="fruit-image" src="grape.jpeg" alt="Grapes">
+                <div class="fruit-info">
+                    <div class="fruit-title">Grapes</div>
+                    <div class="fruit-description">Grapes are sweet, juicy, and packed with antioxidants. They're a great addition to fruit salads or enjoyed on their own.</div>
+                </div>
+            </div>
+            <!-- Add more fruit cards here -->
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <!-- Include the footer section as in your landing page -->
+</body>
+</html>
